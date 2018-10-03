@@ -1,35 +1,69 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0020)https://enkasse.com/ -->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>ENKASSE</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ENKASSE.com</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/site.css">
-    <link rel="stylesheet" href="assets/css/index.css">    
-<!-- Johannes luktar som en gammal surdegsbulle. André är bäst i hela värden, och väldigt mogen -->
+    <!-- Johannes luktar som en gammal surdegsbulle. André är bäst i hela värden, och väldigt mogen -->
     <link rel="shortcut icon" href="https://enkasse.com/favicon.jpg">
+    <script src="assets/script/enkasse.js"></script>
 </head>
 <body>
-    <div id="content">
+    <div id="container">
+        <!-- Header -->
         <div id="header">
             <a href="index.html"><img src="assets/img/Enkassepic.png" width="750" height="325"></a>
         </div>
-        <div id="secondheader">
-                <a href="Crew.html">CREW</a> 
-                <a href="Gallery.html">GALLERY</a> 
-                <a href="Contact.html">CONTACT</a>
-                <a href="ts3server://enkasse.com?port=9987">TEAMSPEAK</a>
+        <!-- Menu -->
+        <div id="menu">
+            <a href="#" onclick="menuToggle(this);">CREW</a> 
+            <a href="#" onclick="menuToggle(this);">GALLERY</a> 
+            <a href="#" onclick="menuToggle(this);">CONTACT</a>
+            <a href="ts3server://enkasse.com?port=9987">TEAMSPEAK</a>
         </div>
-    </div>
-    <div id="Container">
-        <p>
-            ENKASSE! the finest collection of dedicated gamers spawned from early FPS games such as DOOM, Quake and CS 1.6.
-            Negative whining within the CS-GO community encurageds us to create something greater.
-            Something deeper then presented. The result was clear.
-            When pure recourses combined with the infernal will to become something epic. Nothing could stop us.
-            Pure friendship and dedication to our goal created what is now known as ENKASSE!.
-            With furius anger and hateful vengance we will raise and bring AWP justice.
-        </p>
+        <!-- Content -->
+        <div id="content">
+            <div id="home-part" class="page-part page-home">
+                <p>
+                    ENKASSE! The finest collection of dedicated gamers spawned from early FPS games such as DOOM, Quake and CS 1.6.
+                    Negative whining within the CS-GO community encouraged us to create something greater.
+                    Something deeper then presented. The result was clear.
+                    When pure resources combined with the infernal will to become something epic. Nothing could stop us.
+                    Pure friendship and dedication to our goal created what is now known as ENKASSE!.
+                    With furius anger and hateful vengance we will rise and bring AWP justice.
+                </p>
+            </div>
+            <div id="crew-part" class="page-part">
+                <p><a href="http://steamcommunity.com/id/slicemenice">Slicemenice</a></p>
+                <p><a href="http://steamcommunity.com/profiles/76561198000628482">Sluggen</a></p>
+                <p><a href="http://steamcommunity.com/profiles/76561198121958782/">Nicki</a></p>
+                <p><a href="http://steamcommunity.com/profiles/76561198196689301/">Zorzy</a></p>
+                <p><a href="http://steamcommunity.com/profiles/76561198023695338">Hartel</a></p>
+                <p><a href="https://steamcommunity.com/id/official_johanl33t/">Johan</a></p>
+                <p><a href="http://steamcommunity.com/id/noeva/">Haggez</a> </p>
+                <p><a href="http://steamcommunity.com/id/hoLMish">h L M</a></p>
+                <p><a href="http://steamcommunity.com/profiles/76561198100182051/">Ove</a></p>
+                <p><a href="https://steamcommunity.com/id/theschitz">theschitz</a></p>
+                <p><a href="https://steamcommunity.com/profiles/76561198093727142">Henning</a></p>
+                <p><a href="https://steamcommunity.com/id/fyllpen">Fyllpen</a></p>
+                <p><a href="https://steamcommunity.com/id/kippsa">Kippsa</a></p>
+            </div>
+            <div id="gallery-part" class="page-part">
+                <img src="assets/img/EK_logo_finished.png" width="184" height="184"><p>
+                <img src="assets/img/10699202_10153321557577817_1209222600_n.jpg" width="348" height="198">
+                <img src="assets/img/12367054_10153321557147817_1660344837_n.jpg" width="430" height="267">
+                <img src="assets/img/12395610_10153321552522817_679661121_n.jpg" width="485" height="360">
+                <img src="assets/img/12398266_10153321558822817_882493125_o.jpg" width="500" height="350">
+                <img src="assets/img/12400139_10153321558857817_541736882_o.jpg" width="600" height="240">
+            </div>
+            <div id="contact-part" class="page-part">
+                postmaster@enkasse.com
+                <p>Feel free to mail us</p>
+            </div>
+        </div>
+        <!-- /Content -->
     </div>
 </body>
 </html>
